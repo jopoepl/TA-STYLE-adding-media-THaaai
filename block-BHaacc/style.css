@@ -121,6 +121,7 @@ button {
     height: 50px;
     border-radius: 40px;
     font-size: 14px;
+    border: none;
 }
 
 .container1 img {
@@ -365,6 +366,11 @@ button {
     width: 45%;
     height: 100%;
 }
+
+.text-blog-box button a {
+    color: black;
+
+}
 .blog-container .text-blog-box {
     flex-direction: column;
     justify-content: center;
@@ -387,7 +393,7 @@ button {
 
 .text-blog-box h2 {
     font-size: 20px;
-    margin: 10px auto;
+    margin: 10px 0;
 }
 .text-blog-box button {
     background-color: #efefef;
